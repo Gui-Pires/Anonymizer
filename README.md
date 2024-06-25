@@ -1,0 +1,2 @@
+# Anonymizer
+Anonimizador de PDF
