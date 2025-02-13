@@ -5,9 +5,9 @@
 ## Índice 📑
 
 - [Sobre Anonymizer](#anonymizer)
-- [Instalação e Execução 🛠️](#instalação-e-execução)
+- [Instalação e Execução 🛠️](#instalação-e-execução-🛠️)
 - [Ferramentas 🔧](#ferramentas-)
-- [Como Funciona ⚙️](#como-funciona)
+- [Como Funciona ⚙️](#como-funciona-⚙️)
 - [Impacto da ferramenta 🚀](#impacto-da-ferramenta-)
 - [Licença](#licença)
 
