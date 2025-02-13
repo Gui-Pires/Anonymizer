@@ -2,11 +2,19 @@
 ![Flask](https://img.shields.io/badge/Framework-Flask-blue)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+## Índice 📑
+
+- [Sobre Anonymizer](#anonymizer)
+- [Instalação e Execução 🛠️](#instalação-e-execução-)
+- [Ferramentas 🔧](#ferramentas-)
+- [Como Funciona? ⚙️](#como-funciona-)
+- [Impacto da ferramenta 🚀](#impacto-da-ferramenta-)
+- [Licença](#licença)
+
 # Anonymizer
 ### Ferramenta para Anonimização de Dados Sensíveis em PDFs
 
-O projeto consiste em anonimizar dados sensíveis de documentos em PDF, sobreponto as informações com uma em preto, mantendo o layout do documento original.
-O propósito dessa ferramenta é manter a confidencialidade de informações pessoais em documentos que podem vir a público, prática realizada geralmente em órgão públicos, como licitação por exemplo.
+O projeto consiste em anonimizar dados sensíveis de documentos em PDF, sobreponto as informações com uma cor preta, mantendo o layout do documento original.
 
 ## Instalação e Execução 🛠️
 
@@ -36,17 +44,17 @@ Após instalar as dependências, execute o seguinte comando:
 python app.py
 ```
 
-## Dicas Adicionais 💻
+### Dicas Adicionais 💻
 
 Caso o pip não seja reconhecido, tente `python -m pip install -r requirements.txt`.
 Se estiver no Windows, pode ser necessário rodar `python main.py` em vez de `python3 main.py`.
 
 Para evitar conflitos entre pacotes, considere usar um ambiente virtual:
 ```
-python -m venv venv
+python -m venv venv  # Cria o ambiente virtual
 source venv/bin/activate  # No Linux/macOS
 venv\Scripts\activate  # No Windows
-pip install -r requirements.txt
+pip install -r requirements.txt  # Instale as dependências dentro do ambiente virtual
 ```
 
 ## Ferramentas 🔧
@@ -74,7 +82,7 @@ Utilizando Python e Flask para servir uma página web com uma interface simples 
 O arquivo original é salvo em uma pasta e uso o PyMuPDF para fazer as manipulações de texto e imagens (que diferente do texto, é sobreposto em branco). Depois de finalizado é salvo uma cópia com um prefixo do nome do arquivo na mesma pasta do original, em seguida é disponibilizado para o usuário um link para download do arquivo pronto.
 
 Nota: Para conter o acúmulo dos arquivos na pasta do servidor é feita uma varredura dos arquivos que contém mais de 1 hora armazenados e deletados automáticamente. 
-> A varredura no entando só é realizada no próximo uso da ferramenta, o que pode ser considerado para recuperar arquivos com mais de 1 hora armazenados.
+> A varredura para deletar arquivos antigos (mais de 1 hora) ocorre somente quando a ferramenta é usada novamente. Portanto, se você precisa recuperar um arquivo que tenha mais de 1 hora armazenado, ele pode ser recuperado até a próxima execução da ferramenta.
 
 ## Impacto da ferramenta 🚀
 
