@@ -7,7 +7,7 @@
 - [Sobre Anonymizer](#anonymizer)
 - [Instalação e Execução 🛠️](#instalação-e-execução-)
 - [Ferramentas 🔧](#ferramentas-)
-- [Como Funciona? ⚙️](#como-funciona?-)
+- [Como Funciona ⚙️](#como-funciona-)
 - [Impacto da ferramenta 🚀](#impacto-da-ferramenta-)
 - [Licença](#licença)
 
@@ -66,7 +66,7 @@ pip install -r requirements.txt  # Instale as dependências dentro do ambiente v
 - [Flask v3.0.3](https://flask-docs-pt.readthedocs.io/pt/latest/)
 - [PyMuPDF v1.25.3](https://pymupdf.readthedocs.io/en/latest/)
 
-## Como Funciona? ⚙️
+## Como Funciona ⚙️
 
 Utilizando Python e Flask para servir uma página web com uma interface simples e flúida, com design moderno do Bootstrap, o usuário envia um arquivo PDF para aninomizar:
 
