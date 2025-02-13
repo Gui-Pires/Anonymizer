@@ -1,5 +1,5 @@
 ![Python version](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![Build Status](https://img.shields.io/github/workflow/status/Gui-Pires/Anonymizer/CI)
+![Flask](https://img.shields.io/badge/Framework-Flask-blue)
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 # Anonymizer
