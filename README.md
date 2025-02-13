@@ -5,9 +5,9 @@
 ## Índice 📑
 
 - [Sobre Anonymizer](#anonymizer)
-- [Instalação e Execução 🛠️](#instalação-e-execução-🛠️)
+- [Instalação e execução 🛠️](#instalação-e-execução-)
 - [Ferramentas 🔧](#ferramentas-)
-- [Como Funciona ⚙️](#como-funciona-⚙️)
+- [Como funciona ⚙️](#como-funciona-)
 - [Impacto da ferramenta 🚀](#impacto-da-ferramenta-)
 - [Licença](#licença)
 
@@ -16,7 +16,7 @@
 
 O projeto consiste em anonimizar dados sensíveis de documentos em PDF, sobreponto as informações com uma cor preta, mantendo o layout do documento original.
 
-## Instalação e Execução 🛠️
+## Instalação e execução 🛠️
 
 Siga as etapas abaixo para instalar e rodar o Anonymizer em sua máquina:
 
@@ -66,7 +66,7 @@ pip install -r requirements.txt  # Instale as dependências dentro do ambiente v
 - [Flask v3.0.3](https://flask-docs-pt.readthedocs.io/pt/latest/)
 - [PyMuPDF v1.25.3](https://pymupdf.readthedocs.io/en/latest/)
 
-## Como Funciona ⚙️
+## Como funciona ⚙️
 
 Utilizando Python e Flask para servir uma página web com uma interface simples e flúida, com design moderno do Bootstrap, o usuário envia um arquivo PDF para aninomizar:
 
