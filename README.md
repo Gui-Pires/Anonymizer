@@ -16,6 +16,8 @@
 
 O projeto consiste em anonimizar dados sensíveis de documentos em PDF, sobreponto as informações com uma cor preta, mantendo o layout do documento original.
 
+![AnonymizerGif](Anonymizer.gif)
+
 ## Instalação e execução 💻
 
 Siga as etapas abaixo para instalar e rodar o Anonymizer em sua máquina:
