@@ -90,7 +90,7 @@ Nota: Para conter o acúmulo dos arquivos na pasta do servidor é feita uma varr
 
 Os funcionários da empresa no qual trabalhei precisavam fazer algumas anonimizações semanalmente, onde era um processo trabalhoso identificar e sobrepor as informações sensíveis nos documentos, chegando a ocupar horas de trabalho em um único arquivo.
 
-Com essa solução o tempo foi consideravelmente reduzido, passando de horas para 5 minutos no máximo, uma vez que a ferramenta era experimental e precisava de uma verificação dos dados anonimizado.
+Com essa solução o tempo foi consideravelmente reduzido, passando de horas para 5 minutos no máximo, uma vez que a ferramenta era experimental e precisava de uma verificação dos dados anonimizados.
 
 ## Licença
 
